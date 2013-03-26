@@ -34,7 +34,7 @@ while($row = mysql_fetch_assoc($sqltopics)){
 	<td class="trow2 forumdisplay_regular">
 		
 		<div>
-			<span><a href="/viewtopic.php?t='.$row['tid'].'" class="" subject_new" id="tid_721">'.$row['title'].'</a></span>
+			<span><a href="./viewtopic.php?t='.$row['tid'].'" class="" subject_new" id="tid_721">'.$row['title'].'</a></span>
 			<div class="author smalltext"><a href="/user/'.$row['starter_id'].'">'.$row['starter_name'].'</a></div>
 		</div>
 	</td>
