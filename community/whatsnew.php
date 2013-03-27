@@ -7,7 +7,7 @@
 */
 require '../inc/config.php';
 include '../tmp/header.php';
-echo '<div class="navigation"><span class="active">Host 4 Post Community &raquo; What\'s New in H4P2013</span></div>';
+echo '<div class="navigation"><span class="active">Host 4 Post Community &raquo; What\'s New in H4P2013</span></div><br>';
 
 ?>
 <center><h1>What's new in H4P2013?</h1></center>

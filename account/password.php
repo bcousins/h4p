@@ -7,7 +7,7 @@
 */
 require '../inc/config.php';
 include '../tmp/header.php';
-echo '<div class="navigation"><span class="active">Host 4 Post &raquo; Reset Password</span></div>';
+echo '<div class="navigation"><span class="active">Host 4 Post &raquo; Reset Password</span></div><br>';
 	
 include '../tmp/footer.php';
 ?>
