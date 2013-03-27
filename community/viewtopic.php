@@ -35,10 +35,10 @@ echo '<tr>
 echo '<small>User #'.$rowu['member_id'].'</small><br>
 	<b>'.$rowu['members_display_name'].'</b><br>
 	<span style="color:#555;">'.$rowu['title'].'</span><br>';
-	if($rowu['member_group_id'] == 4){
+	if($rowu['member_group_id'] === 4){
 		echo 'Administrator';
 	}
-	elseif($rowu['member_group_id'] == 8){
+	elseif($rowu['member_group_id'] === 8){
 		echo 'Retired Staff';
 	}
 	else{
