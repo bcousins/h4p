@@ -23,8 +23,6 @@ echo '<table border="0" cellspacing="1" cellpadding="4" class="tborder">
 	<tr>
 		<td class="tcat" width="20%"><span class="smalltext"><strong>Poster</span></strong></span></td>
 		<td class="tcat" width="66%"><span class="smalltext"><strong>Post</strong></span></td>
-		
-		
 	</tr>';
 //Get them threads in the forum gotten by $_GET['fid']
 $sqltopics = mysql_query("SELECT * FROM  `forum_posts` WHERE `topic_id` = '{$_GET["t"]}' ORDER BY  `post_date`") or die(mysql_error());
