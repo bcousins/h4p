@@ -7,6 +7,8 @@
 */
 require '../inc/config.php';
 include '../tmp/header.php';
+echo '<div class="navigation"><span class="active">Host 4 Post Community &raquo; What\'s New in H4P2013</span></div>';
+
 ?>
 <center><h1>What's new in H4P2013?</h1></center>
 <p>Host4Post 2013 introduces a number of new features, and some not-so-new featutes into the site. </p>

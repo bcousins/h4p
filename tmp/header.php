@@ -133,12 +133,3 @@ border: solid 0px #FFF;
 </div>
 <br />
 <!-- start: nav -->
-
-<div class="navigation">
-<!-- start: nav_bit_active -->
-<span class="active">Host 4 Post Community</span>
-<!-- end: nav_bit_active -->
-</div>
-<!-- end: nav -->
-			<br />
-<!-- end: header -->

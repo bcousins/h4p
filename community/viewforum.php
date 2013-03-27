@@ -7,6 +7,8 @@
 */
 require '../inc/config.php';
 include '../tmp/header.php';
+echo '<div class="navigation"><span class="active">Host 4 Post Community &raquo; View Forum</span></div>';
+
 echo '<table border="0" cellspacing="1" cellpadding="4" class="tborder">
 <thead>
 <tr>
